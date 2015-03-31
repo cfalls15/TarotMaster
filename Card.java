@@ -20,3 +20,11 @@ public class MajorCard
 //I need them to be able to recognize when they're in a set with 
 //their reinforcer/opposer cards
 //there are multiple reinforcer and opposer cards
+
+/*
+use CardName.indexOf(TheStar) or something like that
+  if its greater than negative one it's found
+  
+  greater than negative 1, the card IS found
+  then you can have it trigger a sentance
+  */
