@@ -250,74 +250,99 @@ public class Game
                                    "",//Star, Ten of Cups
                                    "");//Devil, Nine of Wands, Five of Swords, Seven of Swords, Nine of Swords
       MinorCard theSevenOfCups;
-      theSevenOfCups = newMinorCard("The Seven of Cups",
+      theSevenOfCups = new MinorCard("The Seven of Cups",
                                     "wishful thinking, options, dissipation"
                                     "",
                                     "",//devil, moon, nine of cups
                                     "");//magician, emperor, temperance, four of pentacles, eight of pentacles, nine of pentacles
       MinorCard theEightOfCups;
-      theEightOfCups = newMinorCard("The Eight of Cups",
+      theEightOfCups = new MinorCard("The Eight of Cups",
                                     "deeper meaning, moving on, weariness",
                                     "",
                                     "",//Hermit, Death, Three of Wands, Eight of Wands, Six of Swords
                                     "");//Strength, Sun, Nine of Wands
       MinorCard theNineOfCups;
-      theNineOfCups = newMinorCard("The Nine of Cups",
+      theNineOfCups = new MinorCard("The Nine of Cups",
                                    "wish fulfillment, satisfaction, sensual pleasure",
                                    "",
                                    "",//empress, lovers, World, Six of Wands, Seven of Cups
                                    "");//The Hermit, the Five of Cups
       MinorCard theTenOfCups;
-      theTenOfCups = newMinorCard("The Ten of Cups",
+      theTenOfCups = new MinorCard("The Ten of Cups",
                                   "joy, peace, family",
                                   "",
                                   "",//The Lovers, The Star, the World, the Six of Cups
                                   "");//The Devil, The Tower, The Three of Swords, The Nine of Swords, The Ten of Swords
       CourtCard thePageOfCups;
-      thePageOfCups = newCourtCard("The Page of Cups",
+      thePageOfCups = new CourtCard("The Page of Cups",
                                    "Be Emotional, Be Intuitive, Be Intimate, Be Loving",
                                    "",
                                    "");
       CourtCard theKnightOfCups;
-      theKnightOfCups = newCourtCard("The Knight of Cups",
+      theKnightOfCups = new CourtCard("The Knight of Cups",
                                      "Romantic/Overemotional, Imaginative/Fanciful, Sensitive/Temperamental, Refined/Overrefined, Introspective/Introverted",
                                      "",
                                      "");
       CourtCard theQueenOfCups;
-      theQueenOfCups = newCourtCard("The Queen of Cups",
+      theQueenOfCups = new CourtCard("The Queen of Cups",
                                     "loving, tenderhearted, intuitive, psychic, spiritual"
                                     "",
                                     "");
       CourtCard theKingOfCups;
-      theKingOfCups = newCourtCard("The King of Cups",
+      theKingOfCups = new CourtCard("The King of Cups",
                                    "wise, calm, diplomatic, caring, tolerant",
                                    "",
                                    "");
       AceCard theAceOfSwords;
-      theAceOfSwords = newAceCard("The Ace of Swords",
+      theAceOfSwords = new AceCard("The Ace of Swords",
                                   "mental force, truth, justice, fortitude",
                                   "",
                                   "");
       
       MinorCard theTwoOfSwords;
-      theTwoOfSwords = newMinorCard("The Two of Swords",
+      theTwoOfSwords = new MinorCard("The Two of Swords",
                                     "blocked emotions, avoidance, stalemate",
                                     "",
                                     "",//The Moon, Nine Of Wands, Seven of Swords, Four of Pentacles
                                     "");//The Fool, The Wheel of Fortune, Justice, The Star, the Three of Wands
       MinorCard theThreeOfSwords;
-      theThreeOfSwords = newMinorCard("The Three of Swords",
+      theThreeOfSwords = new MinorCard("The Three of Swords",
                                       "heartbreak, loneliness, betrayal",
                                       "",
                                       "",//Five of Cups, Nine of Swords, Five of Pentacles
                                       "");//The Lovers, Three of Cups, Ten of Cups
       MinorCard theFourOfSwords;
-      theFourOfSwords = newMinorCard("The Four of Swords",
+      theFourOfSwords = new MinorCard("The Four of Swords",
                                      "rest, contemplation, quiet preparation",
                                      "",
                                      "",//The High Priestess, The Hermit, The Hanged Man, The Four of Cups, The Six of Swords, The Seven of Pentacles
                                      "");//The Magician, The Wheel of Fortune, The Eight of Wands, The Ten of Wands, The Two of Pentacles
-      MinorCard
+      MinorCard theFiveOfSwords;
+      theFiveOfSwords = new MinorCard("The Five of Swords",
+                                     "",
+                                     "",
+                                     "",
+                                     "");
+      MinorCard theSixOfSwords;
+      theSixOfSwords = new MinorCard("The Six of Swords",
+                                    "",
+                                    "",
+                                    "",
+                                    "");
+      MinorCard theSevenOfSwords;
+      theSevenOfSwords = new MinorCard("The Seven of Swords",
+                                      "",
+                                      "",
+                                      "",
+                                      "");
+      MinorCard theEightOfSwords;
+      theEightOfSwords = new MinorCard("The Eight of Swords",
+                                       "",
+                                       "",
+                                       "",
+                                       "");
+                                      
+                                    
                                     
                                      
                                    
