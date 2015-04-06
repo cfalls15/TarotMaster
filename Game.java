@@ -319,28 +319,151 @@ public class Game
                                      "");//The Magician, The Wheel of Fortune, The Eight of Wands, The Ten of Wands, The Two of Pentacles
       MinorCard theFiveOfSwords;
       theFiveOfSwords = new MinorCard("The Five of Swords",
+                                     "self-interest, discord, open dishonor",
                                      "",
-                                     "",
-                                     "",
-                                     "");
+                                     "",//Five of Wands, Seven of Wands, Seven of Swords
+                                     "");// The Emperor, Justice, Temperance, Six of Cups
       MinorCard theSixOfSwords;
       theSixOfSwords = new MinorCard("The Six of Swords",
+                                    "the blues, recovery, travel",
                                     "",
-                                    "",
-                                    "",
-                                    "");
+                                    "",//Ten of Wands, Four of Cups, Five of Cups, Eight of Cups, Four of Swords, Nine of Swords
+                                    "");//Strength, The Sun, Four of Wands, Three of Cups, Two of Pentacles
       MinorCard theSevenOfSwords;
       theSevenOfSwords = new MinorCard("The Seven of Swords",
+                                      "running away, being a lone wolf, hidden dishonor",
                                       "",
-                                      "",
-                                      "",
-                                      "");
+                                      "",//The Hermit, Two of Swords, Five of Swords, Nine of Pentacles
+                                      "");//The Hierophant, Justice, Ten of Wands, Six of Cups
       MinorCard theEightOfSwords;
       theEightOfSwords = new MinorCard("The Eight of Swords",
+                                       "restriction, confusion, powerlessness",
                                        "",
-                                       "",
+                                       "",//The Devil, The Moon, Ten of Swords
+                                       "");//The Magician, the Chariot, Two of Wands, Four of Wands, Three of Pentacles
+      MinorCard theNineOfSwords;
+      theNineOfSwords = new MinorCard("The Nine of Swords",
+                                      "worry, guilt, anguish",
+                                      "",
+                                      "",//The Devil, Ten of Wands, Three of Swords, Six of Swords
+                                      "");//The Star, Judgement, Three of Cups, Six of Cups, Ten of Cups
+      MinorCard theTenOfSwords;
+      theTenOfSwords = new MinorCard("The Ten of Swords",
+                                     "hitting rock bottom, victim mentality, martyrdom",
+                                     "",
+                                     "",//The Hanged Man, Eight of Swords
+                                     "");//The Chariot, Two of Wands, Six of Wands, Nine of Cups
+      CourtCard thePageOfSwords;
+      thePageOfSwords = new CourtCard("The Page of Swords",
+                                      "use your mind, be truthful, be just, have fortitude",
+                                      "",
+                                      "");
+                                        
+      
+      CourtCard theKnightOfSwords;
+      theKnightOfSwords = new CourtCard("The Knight of Swords",
+                                        "direct/blunt, authoritative/overbearing, incisive/cutting, knowledgeable/opinionated, logical/unfeeling",
+                                        "",
+                                        "");
+      CourtCard theQueenOfSwords;
+      theQueenOfSwords = new CourtCard("The Queen of Swords",
+                                       "honest, astute, forthright, witty, experienced",
                                        "",
                                        "");
+      CourtCard theKingOfSwords;
+      theKingOfSwords = new CourtCard("The King of Swords",
+                                      "intellectual, analytical, articulate, just, ethical",
+                                      "",
+                                      "");
+      AceCard theAceOfPentacles;
+      theAceOfPentacles = new AceCard("The Ace of Pentacles",
+                                      "material force, prosperity, practicality, trust",
+                                      "",
+                                      "");
+      MinorCard theTwoOfPentacles;
+      theTwoOfPentacles = new MinorCard("The Two of Pentacles",
+                                        "juggling, flexibility, fun",
+                                        "",
+                                        "",//Temperance, Four of Wands
+                                        "");//The Hierophant, Five of Wands, Four of Swords, Six of Swords
+      MinorCard theThreeOfPentacles;
+      theThreeOfPentacles = new MinorCard("The Three of Pentacles",
+                                          "teamwork, planning, competence",
+                                          "",
+                                          "",//The Hierophant, Temperance, Three of Wands, Three of Cups
+                                          "");//Five of Wands, Seven of Wands, Eight of Swords, Nine of Pentacles
+      MinorCard theFourOfPentacles;
+      theFourofPentacles = new MinorCard("The Four of Pentacles",
+                                         "possessiveness, control, blocked change",
+                                         "",
+                                         "",//The Emperor, the Chariot, Two of Swords, Ten of Pentacles
+                                         "");//The Fool, The Empress, the Wheel of Fortune, The Hanged Man
+      MinorCard theFiveOfPentacles;
+      theFiveOfPentacles = new MinorCard("The Five of Pentacles",
+                                         "hard times, ill health, rejection",
+                                         "",
+                                         "The Tower, Ten of Wands, Five of Cups, Three of Swords",
+                                         "Strength, Temperance, The Sun, Six of Wands, Seven of Pentacles");
+      MinorCard theSixOfPentacles;
+      theSixOfPentacles = new MinorCard("The Six of Pentacles",
+                                        "having/not having resources, knowledge, power",
+                                        "",
+                                        "",//The Empress, The World, Ten of Wands, Five of Pentacles, Seven of Pentacles, Ten of Pentacles
+                                        "");//no opposing cards bc six of pentacles deals with both sides of the issue
+      MinorCard theSevenOfPentacles;
+      theSevenOfPentacles = new MinorCard("The Seven of Pentacles",
+                                          "assessment, reward, change of direction",
+                                          "",
+                                          "",//The Empress, Justice, Judgement, Four of Swords
+                                          "");//The Wheel of Fortune, Eight of Wands, Five of Pentacles
+      
+                                            
+
+      MinorCard theEightOfPentacles;
+      theEightOfPentacles = new MinorCard("The Eight of Pentacles",
+                                          "diligence, knowledge, detail",
+                                          "",
+                                          "",//The Magician, the Hierophant, Nine of Wands
+                                          "");//Four of Cups, Seven of Cups
+      MinorCard theNineOfPentacles;
+      theNineOfPentacles = new MinorCard("The Nine of Pentacles",
+                                         "discipline, self-reliance, refinement",
+                                         "",
+                                         "",//The Chariot, Seven of Swords
+                                         "");//The Empress, Seven of Cups, Three of Pentacles
+      MinorCard theTenOfPentacles;
+      theTenOfPentacles = new MinorCard("The Ten of Pentacles",
+                                        "affluence, permanence, convention",
+                                        "",
+                                        "",//The Empress, The Hierophant, The Lovers, The World, the Four of Pentacles
+                                        "");//Two of Wands, Three of Wands, Five of Pentacles
+      CourtCard thePageOfPentacles;
+      thePageOfPentacles = new CourtCard("The Page of Pentacles",
+                                         "have an effect, be practical, be prosperous, be trusting/trustworthy",
+                                         "",
+                                         "");
+      CourtCard theKnightOfPentacles;
+      theKnightOfPentacles = new CourtCard("The Knight of Pentacles",
+                                           "unwavering/stubborn, cautious/unadventurous, thorough/obsessive, realistic/pessimistic, hardworking/workaholic",
+                                           "",
+                                           "");
+      CourtCard theQueenOfPentacles;
+      theQueenOfPentacles = new CourtCard("The Queen of Pentacles",
+                                          "nurturing, bighearted, down-to-earth, resourceful, trustworthy",
+                                          "",
+                                          "");
+      CourtCard theKingOfPentacles;
+      theKingOfPentacles = new CourtCard("The King of Pentacles",
+                                         "enterprising, adept, reliable, supporting, steady",
+                                         "",
+                                         "");
+        
+                                           
+      
+                                           
+      
+      
+        
                                       
                                     
                                     
