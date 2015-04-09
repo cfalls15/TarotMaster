@@ -28,3 +28,5 @@ use CardName.indexOf(TheStar) or something like that
   greater than negative 1, the card IS found
   then you can have it trigger a sentance
   */
+
+indexOf(String str)

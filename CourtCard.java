@@ -1,15 +1,12 @@
-public class CourtCard
+public class CourtCard extends Card
   {
-    public String myName;
-    public String myDef;
-    public String myType;
-    public String myCourtPair
+    public String myCourtPair;
     
-    public AceCard(String name, String def, String type, String courtPair)
+    public CourtCard(String name, String def, String type, String courtPair)
     {
       myName = name;
       myDef = def;
       myType = type;
       myCourtPair = courtPair;
     }
-}
+ }

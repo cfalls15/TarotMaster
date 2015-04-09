@@ -1,8 +1,5 @@
-public class MajorCard
+public class MajorCard implements Card
   {
-    public String myName;
-    public String myDef;
-    public String myType;
     public String myReinforcers;
     public String myOpposers;
     
@@ -27,4 +24,6 @@ use CardName.indexOf(TheStar) or something like that
   
   greater than negative 1, the card IS found
   then you can have it trigger a sentance
-  */
+  
+
+indexOf(String str)*/

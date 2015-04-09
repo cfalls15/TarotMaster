@@ -1,8 +1,9 @@
-public class AceCard implements Card
+public class AceCard
   {
-    public String myAcePair;
+    public String myName;
     public String myDef;
     public String myType;
+    public String myAcePair
     
     public AceCard(String name, String def, String type, String acePair)
     {
@@ -11,4 +12,4 @@ public class AceCard implements Card
       myType = type;
       myAcePair = acePair;
     }
- }
+}
