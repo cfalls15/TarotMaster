@@ -1,4 +1,4 @@
-public class AceCard implements Card
+public class AceCard extends Card
   {
     public String myAcePair;
     public String myDef;

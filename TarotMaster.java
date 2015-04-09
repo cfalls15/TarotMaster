@@ -17,7 +17,7 @@ public class TarotMaster
       {
         System.out.println("Let me explain.  The setup we're going to use today is blah blah blah.");
       }
-        
+        //generate random numbers 
       
   }
 }

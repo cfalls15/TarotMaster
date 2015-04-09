@@ -383,8 +383,35 @@ public class Game
                                          "enterprising, adept, reliable, supporting, steady",
                                          "",
                                          "");
-// String[] deck = new String[78];
-// deck[0] = "theFool";
+      
+
+Card[]deck = {theFool, theMagician, theHighPriestess,
+              theEmpress, theEmperor, theHierophant,
+              theLovers, theChariot, theStrength,
+              theHermit, theWheelOfFortune, theJustice, 
+              theHangedMan, theDeath, theTemperance,
+              theDevil, theTower, theStar,
+              theMoon, theSun, theJudgement,
+              theWorld, theAceOfWands, theTwoOfWands,
+              theThreeOfWands, theFourOfWands, theFiveOfWands,
+              theSixOfWands, theSevenOfWands, theEightOfWands,
+              theNineOfWands, theTenOfWands, thePageOfWands,
+              theKnightOfWands, theQueenOfWands, theKingOfWands,
+              theAceOfCups, theTwoOfCups, theThreeOfCups,
+              theFourOfCups, theFiveOfCups, theSixOfCups,
+              theSevenOfCups, theEightOfCups, theNineOfCups,
+              theTenOfCups, thePageOfCups, theKnightOfCups,
+              theQueenOfCups, theKingOfCups, theAceOfSwords,
+              theTwoOfSwords, theThreeOfSwords, theFourOfSwords,
+              theFiveOfSwords, theSixOfSwords, theSevenOfSwords,
+              theEightOfSwords, theNineOfSwords, theTenOfSwords,
+              thePageOfSwords, theKnightOfSwords, theQueenOfSwords,
+              theKingOfSwords, theAceOfPentacles, theTwoOfPentacles, 
+              theThreeOfPentacles, theFourOfPentacles, theFiveOfPentacles,
+              theSixOfPentacles, theSevenOfPentacles, theEightOfPentacles,
+              theNineOfPentacles, theTenOfPentacles, thePageOfPentacles,
+              theKnightOfPentacles, theQueenOfPentacles, theKingOfPentacles};
+              
         
                                            
       
@@ -403,11 +430,13 @@ public class Game
      
              
      
-                             
+                     
+}
            //add cards to arraylist
        
-       public void play()
+   /*    public void play()
      {
        
      }
     }
+*/

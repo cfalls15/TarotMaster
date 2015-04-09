@@ -1,12 +1,9 @@
-public class MinorCard
+public class MinorCard implements Card
   {
-    public String myName;
-    public String myDef;
-    public String myType;
     public String myReinforcers;
     public String myOpposers;
     
-    public MajorCard(String name, String def, String type, String reinforcers, String opposers)
+    public MinorCard(String name, String def, String type, String reinforcers, String opposers)
     {
       myName = name;
       myDef = def;

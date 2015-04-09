@@ -1,4 +1,4 @@
-public class MinorCard implements Card
+public class MinorCard extends Card
   {
     public String myReinforcers;
     public String myOpposers;
