@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 public class TarotMaster
 {
   public static void main(String[] args)
@@ -17,7 +18,18 @@ public class TarotMaster
       {
         System.out.println("Let me explain.  The setup we're going to use today is blah blah blah.");
       }
-        //generate random numbers 
+    
+    Random randomOne = new Random();
+     //pick three random numbers
+        int firstRandom = randomOne.nextInt(78);
+        int secondRandom = randomOne.nextInt(78);
+        int thirdRandom = randomOne.nextInt(78);
+  
+        
+          
+        
+      //find the cards that relate to those numbers
+      //announce the cards to the player
       
   }
 }
