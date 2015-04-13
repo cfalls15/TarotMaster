@@ -1,4 +1,4 @@
-public class Game
+/*public class Game
 {
   //create arraylist
   
@@ -410,7 +410,7 @@ Card[]deck = {theFool, theMagician, theHighPriestess,
               theThreeOfPentacles, theFourOfPentacles, theFiveOfPentacles,
               theSixOfPentacles, theSevenOfPentacles, theEightOfPentacles,
               theNineOfPentacles, theTenOfPentacles, thePageOfPentacles,
-              theKnightOfPentacles, theQueenOfPentacles, theKingOfPentacles};
+              theKnightOfPentacles, theQueenOfPentacles, theKingOfPentacles}; 
               
         
                                            
