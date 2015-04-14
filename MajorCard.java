@@ -12,6 +12,16 @@ public class MajorCard extends Card
       myOpposers = opposers;
     }
 }
+/*
+  public String getMyReinforcers()
+  {
+   return myReinforcers;
+  }
+  
+  public String getMyOpposers()
+  {
+    return myOpposers;
+  } */
 //how do I make the card realize that cards in the opposer and reinforcer
 //strings are other cards, and not just combinations of letters?
 //I need them to be able to recognize when they're in a set with 
